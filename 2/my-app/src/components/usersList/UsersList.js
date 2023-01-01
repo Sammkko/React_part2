@@ -8,7 +8,7 @@ function UsersList(props) {
         <ul>
             {
                 users.length > 0
-                ?
+              ?
                 users.map(users =>  <li>{users}</li>)
                     :
                     <p>Empty value</p>
