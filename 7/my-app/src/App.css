@@ -1,0 +1,27 @@
+.App {
+    text-align: center;
+}
+
+.activeMenu {
+    transition: 0.3s;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px;
+    background: gray;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    box-sizing: border-box;
+}
+
+.hiddenMenu {
+    transition: 0.3s;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px;
+    background: gray;
+    position: absolute;
+    left: -100%;
+    top: 50px;
+    box-sizing: border-box;
+}
